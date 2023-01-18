@@ -1,0 +1,41 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #016f32;
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    font-family: monospace;
+    overflow: scroll;
+
+}
+
+h1{
+    color: goldenrod;
+}
+
+#message-el{
+    font-style: italic;
+}
+
+button{
+    width: 150px;
+    padding: 5px; 
+    background-color:goldenrod;
+    color: #016f32;
+    font-size: 1rem;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color: rgb(150, 111, 11);
+    transition: 0.3s;
+}
